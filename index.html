@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.js"></script>
         <title>World Clock - Catherine Dixon</title>
     </head>
     <body>
@@ -12,33 +14,33 @@
             <h1>World Clock</h1>
             <select>
                 <option class="select" value="">Select a city</option>
-                <option value="new-york">Los Angeles</option>
-                <option value="london">Sydney</option>
-                <option value="paris">Tokyo</option>
-                <option value="tokyo">Paris</option>
+                <option value="los-angeles">Los Angeles</option>
+                <option value="sydney">Sydney</option>
+                <option value="tokyo">Tokyo</option>
+                <option value="paris">Paris</option>
             </select>
-            <div class="city">
+            <div class="city" id="los-angeles">
                 <div>
                     <h2>Los Angeles</h2>
                     <div class="date">August 15, 2023</div>
                 </div>
                 <div class="time">2:45:13 PM</div>
             </div>
-            <div class="city">
+            <div class="city" id="sydney">
                 <div>
                     <h2>Sydney</h2>
                     <div class="date">August 15, 2023</div>
                 </div>
                 <div class="time">2:45:13 PM</div>
             </div>
-            <div class="city">
+            <div class="city" id="tokyo">
                 <div>
                     <h2>Tokyo</h2>
                     <div class="date">August 15, 2023</div>
                 </div>
                 <div class="time">2:45:13 PM</div>
             </div>
-            <div class="city">
+            <div class="city" id="paris">
                 <div>
                     <h2>Paris</h2>
                     <div class="date">August 15, 2023</div>
